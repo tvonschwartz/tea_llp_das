@@ -1,0 +1,1105 @@
+ <<< Combine >>> 
+ <<< v10.2.1 >>>
+>>> Random number generator seed is 123456
+>>> Method used is AsymptoticLimits
+============================================================
+Analyzing bin errors for: prop_binbin1
+Poisson cut-off: 10
+Processes excluded for sums: signal
+============================================================
+Bin        Contents        Error           Notes                         
+0          1.955700        0.542414        total sum                     
+0          1.955700        0.542414        excluding marked processes    
+0          13.000000       3.605551        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin0[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+1          4.093669        0.788446        total sum                     
+1          3.911401        0.767089        excluding marked processes    
+1          26.000000       5.099020        Unweighted events, alpha=0.157449
+  => Total parameter prop_binbin1_bin1[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+2          2.953820        0.679539        total sum                     
+2          2.407016        0.601754        excluding marked processes    
+2          16.000000       4.000000        Unweighted events, alpha=0.184614
+  => Total parameter prop_binbin1_bin2[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+3          2.256577        0.582646        total sum                     
+3          2.256577        0.582646        excluding marked processes    
+3          15.000000       3.872983        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin3[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+4          1.955700        0.542414        total sum                     
+4          1.955700        0.542414        excluding marked processes    
+4          13.000000       3.605551        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin4[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+5          0.300877        0.212752        total sum                     
+5          0.300877        0.212752        excluding marked processes    
+5          2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin5_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+6          0.601754        0.300877        total sum                     
+6          0.601754        0.300877        excluding marked processes    
+6          4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin6_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+7          0.300877        0.212752        total sum                     
+7          0.300877        0.212752        excluding marked processes    
+7          2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin7_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+8          0.000000        0.000000        total sum                     
+8          0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+9          0.150438        0.150438        total sum                     
+9          0.150438        0.150438        excluding marked processes    
+9          1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin9_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+10         0.000000        0.000000        total sum                     
+10         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+11         0.300877        0.212752        total sum                     
+11         0.300877        0.212752        excluding marked processes    
+11         2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin11_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+12         0.150438        0.150438        total sum                     
+12         0.150438        0.150438        excluding marked processes    
+12         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin12_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+13         0.000000        0.000000        total sum                     
+13         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+14         0.150438        0.150438        total sum                     
+14         0.150438        0.150438        excluding marked processes    
+14         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin14_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+15         0.182268        0.182268        total sum                     
+15         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+16         0.000000        0.000000        total sum                     
+16         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+17         0.150438        0.150438        total sum                     
+17         0.150438        0.150438        excluding marked processes    
+17         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin17_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+18         0.150438        0.150438        total sum                     
+18         0.150438        0.150438        excluding marked processes    
+18         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin18_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+19         0.000000        0.000000        total sum                     
+19         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+20         0.000000        0.000000        total sum                     
+20         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+21         0.000000        0.000000        total sum                     
+21         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+22         0.150438        0.150438        total sum                     
+22         0.150438        0.150438        excluding marked processes    
+22         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin22_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+23         0.300877        0.212752        total sum                     
+23         0.300877        0.212752        excluding marked processes    
+23         2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin23_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+24         0.150438        0.150438        total sum                     
+24         0.150438        0.150438        excluding marked processes    
+24         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin24_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+25         0.000000        0.000000        total sum                     
+25         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+26         0.000000        0.000000        total sum                     
+26         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+27         0.150438        0.150438        total sum                     
+27         0.150438        0.150438        excluding marked processes    
+27         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin27_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+28         0.000000        0.000000        total sum                     
+28         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+29         0.000000        0.000000        total sum                     
+29         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+30         0.150438        0.150438        total sum                     
+30         0.150438        0.150438        excluding marked processes    
+30         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin30_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+31         0.332707        0.236333        total sum                     
+31         0.150438        0.150438        excluding marked processes    
+31         1.000000        1.000000        Unweighted events, alpha=0.332707
+  => Number of weighted events is below Poisson threshold
+    signal               0.182268        0.182268                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.182268
+      => Product of prop_binbin1_bin31_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin31_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+32         0.150438        0.150438        total sum                     
+32         0.150438        0.150438        excluding marked processes    
+32         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin32_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+33         0.150438        0.150438        total sum                     
+33         0.150438        0.150438        excluding marked processes    
+33         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin33_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+34         0.000000        0.000000        total sum                     
+34         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+35         0.000000        0.000000        total sum                     
+35         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+36         0.000000        0.000000        total sum                     
+36         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+37         0.182268        0.182268        total sum                     
+37         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+38         0.514975        0.298454        total sum                     
+38         0.150438        0.150438        excluding marked processes    
+38         1.000000        1.000000        Unweighted events, alpha=0.514975
+  => Number of weighted events is below Poisson threshold
+    signal               0.364536        0.257766                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.182268
+      => Product of prop_binbin1_bin38_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin38_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+39         0.000000        0.000000        total sum                     
+39         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+40         0.000000        0.000000        total sum                     
+40         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+41         0.150438        0.150438        total sum                     
+41         0.150438        0.150438        excluding marked processes    
+41         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin41_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+42         0.000000        0.000000        total sum                     
+42         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+43         0.182268        0.182268        total sum                     
+43         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+44         0.514975        0.298454        total sum                     
+44         0.150438        0.150438        excluding marked processes    
+44         1.000000        1.000000        Unweighted events, alpha=0.514975
+  => Number of weighted events is below Poisson threshold
+    signal               0.364536        0.257766                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.182268
+      => Product of prop_binbin1_bin44_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin44_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+45         0.182268        0.182268        total sum                     
+45         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+46         0.182268        0.182268        total sum                     
+46         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+47         0.300877        0.212752        total sum                     
+47         0.300877        0.212752        excluding marked processes    
+47         2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin47_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+48         0.000000        0.000000        total sum                     
+48         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+49         0.000000        0.000000        total sum                     
+49         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+50         0.000000        0.000000        total sum                     
+50         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+51         0.000000        0.000000        total sum                     
+51         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+52         0.182268        0.182268        total sum                     
+52         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+53         0.182268        0.182268        total sum                     
+53         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+54         0.514975        0.298454        total sum                     
+54         0.150438        0.150438        excluding marked processes    
+54         1.000000        1.000000        Unweighted events, alpha=0.514975
+  => Number of weighted events is below Poisson threshold
+    signal               0.364536        0.257766                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.182268
+      => Product of prop_binbin1_bin54_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin54_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+55         0.000000        0.000000        total sum                     
+55         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+56         0.182268        0.182268        total sum                     
+56         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+57         0.911340        0.407564        total sum                     
+57         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+58         2.004949        0.604515        total sum                     
+58         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+59         6.379383        1.078313        total sum                     
+59         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+60         3.645362        0.815128        total sum                     
+60         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+61         1.275877        0.482236        total sum                     
+61         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+62         0.514975        0.298454        total sum                     
+62         0.150438        0.150438        excluding marked processes    
+62         1.000000        1.000000        Unweighted events, alpha=0.514975
+  => Number of weighted events is below Poisson threshold
+    signal               0.364536        0.257766                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.182268
+      => Product of prop_binbin1_bin62_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin62_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+63         0.150438        0.150438        total sum                     
+63         0.150438        0.150438        excluding marked processes    
+63         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin63_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+64         0.000000        0.000000        total sum                     
+64         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+65         0.483145        0.280152        total sum                     
+65         0.300877        0.212752        excluding marked processes    
+65         2.000000        1.414214        Unweighted events, alpha=0.241573
+  => Number of weighted events is below Poisson threshold
+    signal               0.182268        0.182268                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.182268
+      => Product of prop_binbin1_bin65_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin65_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+66         0.332707        0.236333        total sum                     
+66         0.150438        0.150438        excluding marked processes    
+66         1.000000        1.000000        Unweighted events, alpha=0.332707
+  => Number of weighted events is below Poisson threshold
+    signal               0.182268        0.182268                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.182268
+      => Product of prop_binbin1_bin66_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin66_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+67         0.150438        0.150438        total sum                     
+67         0.150438        0.150438        excluding marked processes    
+67         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin67_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+68         0.000000        0.000000        total sum                     
+68         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+69         0.000000        0.000000        total sum                     
+69         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+70         0.000000        0.000000        total sum                     
+70         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+71         0.000000        0.000000        total sum                     
+71         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+72         0.000000        0.000000        total sum                     
+72         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+73         0.150438        0.150438        total sum                     
+73         0.150438        0.150438        excluding marked processes    
+73         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin73_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+74         0.000000        0.000000        total sum                     
+74         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+75         0.150438        0.150438        total sum                     
+75         0.150438        0.150438        excluding marked processes    
+75         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin75_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+76         0.000000        0.000000        total sum                     
+76         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+77         0.000000        0.000000        total sum                     
+77         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+78         0.000000        0.000000        total sum                     
+78         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+79         0.000000        0.000000        total sum                     
+79         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+80         0.000000        0.000000        total sum                     
+80         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+81         0.000000        0.000000        total sum                     
+81         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+82         0.000000        0.000000        total sum                     
+82         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+83         0.000000        0.000000        total sum                     
+83         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+84         0.182268        0.182268        total sum                     
+84         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+85         0.000000        0.000000        total sum                     
+85         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+86         0.000000        0.000000        total sum                     
+86         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+87         0.000000        0.000000        total sum                     
+87         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+88         0.000000        0.000000        total sum                     
+88         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+89         0.000000        0.000000        total sum                     
+89         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+90         0.000000        0.000000        total sum                     
+90         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+91         0.182268        0.182268        total sum                     
+91         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+92         0.000000        0.000000        total sum                     
+92         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+93         0.150438        0.150438        total sum                     
+93         0.150438        0.150438        excluding marked processes    
+93         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin93_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+94         0.000000        0.000000        total sum                     
+94         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+95         0.000000        0.000000        total sum                     
+95         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+96         0.000000        0.000000        total sum                     
+96         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+97         0.150438        0.150438        total sum                     
+97         0.150438        0.150438        excluding marked processes    
+97         1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin97_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+98         0.000000        0.000000        total sum                     
+98         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+99         0.000000        0.000000        total sum                     
+99         0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+100        0.000000        0.000000        total sum                     
+100        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+101        0.000000        0.000000        total sum                     
+101        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+102        0.000000        0.000000        total sum                     
+102        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+103        0.000000        0.000000        total sum                     
+103        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+104        0.000000        0.000000        total sum                     
+104        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+105        0.000000        0.000000        total sum                     
+105        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+106        0.000000        0.000000        total sum                     
+106        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+107        0.000000        0.000000        total sum                     
+107        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+108        0.000000        0.000000        total sum                     
+108        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+109        0.000000        0.000000        total sum                     
+109        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+110        0.000000        0.000000        total sum                     
+110        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+111        0.000000        0.000000        total sum                     
+111        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+112        0.000000        0.000000        total sum                     
+112        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+113        0.000000        0.000000        total sum                     
+113        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+114        0.150438        0.150438        total sum                     
+114        0.150438        0.150438        excluding marked processes    
+114        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin114_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+115        0.000000        0.000000        total sum                     
+115        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+116        0.000000        0.000000        total sum                     
+116        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+117        0.000000        0.000000        total sum                     
+117        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+118        0.000000        0.000000        total sum                     
+118        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+119        0.000000        0.000000        total sum                     
+119        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+120        0.000000        0.000000        total sum                     
+120        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+121        0.000000        0.000000        total sum                     
+121        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+122        0.000000        0.000000        total sum                     
+122        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+123        0.000000        0.000000        total sum                     
+123        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+124        0.150438        0.150438        total sum                     
+124        0.150438        0.150438        excluding marked processes    
+124        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin124_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+125        0.000000        0.000000        total sum                     
+125        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+126        0.000000        0.000000        total sum                     
+126        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+127        0.000000        0.000000        total sum                     
+127        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+128        0.000000        0.000000        total sum                     
+128        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+129        0.000000        0.000000        total sum                     
+129        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+130        0.000000        0.000000        total sum                     
+130        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+131        0.000000        0.000000        total sum                     
+131        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+132        0.000000        0.000000        total sum                     
+132        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+133        0.000000        0.000000        total sum                     
+133        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+134        0.000000        0.000000        total sum                     
+134        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+135        0.150438        0.150438        total sum                     
+135        0.150438        0.150438        excluding marked processes    
+135        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin135_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+136        0.000000        0.000000        total sum                     
+136        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+137        0.000000        0.000000        total sum                     
+137        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+138        0.000000        0.000000        total sum                     
+138        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+139        0.000000        0.000000        total sum                     
+139        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+140        0.000000        0.000000        total sum                     
+140        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+141        0.000000        0.000000        total sum                     
+141        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+142        0.000000        0.000000        total sum                     
+142        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+143        0.000000        0.000000        total sum                     
+143        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+144        0.000000        0.000000        total sum                     
+144        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+145        0.000000        0.000000        total sum                     
+145        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+146        0.182268        0.182268        total sum                     
+146        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+147        0.000000        0.000000        total sum                     
+147        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+148        0.000000        0.000000        total sum                     
+148        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+149        0.000000        0.000000        total sum                     
+149        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+150        0.000000        0.000000        total sum                     
+150        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+151        0.182268        0.182268        total sum                     
+151        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+152        0.000000        0.000000        total sum                     
+152        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+153        0.000000        0.000000        total sum                     
+153        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+154        0.000000        0.000000        total sum                     
+154        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+155        0.000000        0.000000        total sum                     
+155        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+156        0.000000        0.000000        total sum                     
+156        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+157        0.000000        0.000000        total sum                     
+157        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+158        0.000000        0.000000        total sum                     
+158        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+159        0.000000        0.000000        total sum                     
+159        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+160        0.000000        0.000000        total sum                     
+160        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+161        0.000000        0.000000        total sum                     
+161        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+162        0.000000        0.000000        total sum                     
+162        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+163        0.000000        0.000000        total sum                     
+163        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+164        0.000000        0.000000        total sum                     
+164        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+165        0.000000        0.000000        total sum                     
+165        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+166        0.000000        0.000000        total sum                     
+166        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+167        0.000000        0.000000        total sum                     
+167        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+168        0.000000        0.000000        total sum                     
+168        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+169        0.000000        0.000000        total sum                     
+169        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+170        0.000000        0.000000        total sum                     
+170        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+171        0.000000        0.000000        total sum                     
+171        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+172        0.000000        0.000000        total sum                     
+172        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+173        0.000000        0.000000        total sum                     
+173        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+174        0.000000        0.000000        total sum                     
+174        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+175        0.000000        0.000000        total sum                     
+175        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+176        0.000000        0.000000        total sum                     
+176        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+177        0.000000        0.000000        total sum                     
+177        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+178        0.000000        0.000000        total sum                     
+178        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+179        0.000000        0.000000        total sum                     
+179        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+180        0.000000        0.000000        total sum                     
+180        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+181        0.000000        0.000000        total sum                     
+181        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+182        0.000000        0.000000        total sum                     
+182        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+183        0.000000        0.000000        total sum                     
+183        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+184        0.000000        0.000000        total sum                     
+184        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+185        0.000000        0.000000        total sum                     
+185        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+186        0.000000        0.000000        total sum                     
+186        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+187        0.000000        0.000000        total sum                     
+187        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+188        0.000000        0.000000        total sum                     
+188        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+189        0.000000        0.000000        total sum                     
+189        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+190        0.000000        0.000000        total sum                     
+190        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+191        0.000000        0.000000        total sum                     
+191        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+192        0.000000        0.000000        total sum                     
+192        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+193        0.000000        0.000000        total sum                     
+193        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+194        0.000000        0.000000        total sum                     
+194        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+195        0.000000        0.000000        total sum                     
+195        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+196        0.000000        0.000000        total sum                     
+196        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+197        0.000000        0.000000        total sum                     
+197        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+198        0.000000        0.000000        total sum                     
+198        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+199        0.000000        0.000000        total sum                     
+199        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+Channel bin1 will use autoMCStats with settings: event-threshold=10, include-signal=0, hist-mode=1
+
+ -- AsymptoticLimits ( CLs ) --
+Observed Limit: r < 0.1168
+Expected  2.5%: r < 0.0346
+Expected 16.0%: r < 0.0609
+Expected 50.0%: r < 0.1167
+Expected 84.0%: r < 0.2255
+Expected 97.5%: r < 0.3539
+
+Done in 0.02 min (cpu), 0.03 min (real)

@@ -1,0 +1,13 @@
+imax 1 number of channels
+jmax 1  number of backgrounds
+kmax * number of nuisance parameters
+shapes * * datacard_Dimuon_minv_alp_12_1e2.root $PROCESS $PROCESS_$SYSTEMATIC
+bin bin1
+observation 19
+bin bin1 bin1
+process signal tt_semi
+process 0 1
+rate 15.566243767738342 18.95524913072586
+stat_err lnN	 1.1005037823901598 1.08908707933245
+lumi lnN 1.017 1.017
+bin1   autoMCStats  10
