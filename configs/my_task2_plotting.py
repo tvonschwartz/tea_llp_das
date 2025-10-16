@@ -9,7 +9,8 @@ luminosity = 63670.  # pb^-1 (2018)
 samples = (
   Sample(
     name="tt_semi",
-    file_path="...",  # your path should go here
+    #file_path="/afs/cern.ch/user/t/tvonschw/tea_llp_das/Outputs/output_task1_bkg.root",  # your path should go here
+    file_path="/afs/cern.ch/user/t/tvonschw/tea_llp_das/histograms/background_ttsemileptonic/after_selections.root",
     type=SampleType.background,
     cross_section=365.34,
     line_alpha=1.0,
@@ -21,7 +22,8 @@ samples = (
   ),
   Sample(
     name="alp_12_1e2",
-    file_path="...",  # your path should go here
+    #file_path="/afs/cern.ch/user/t/tvonschw/tea_llp_das/Outputs/output_task1_signal.root",  # your path should go here
+    file_path="/afs/cern.ch/user/t/tvonschw/tea_llp_das/histograms/tta_mAlp-12GeV_ctau-1e2mm/after_selections.root",
     type=SampleType.signal,
     cross_section=0.001,
     line_alpha=1,
@@ -33,12 +35,14 @@ samples = (
     legend_description="ALP 12 GeV, c#tau = 100 mm",
   ),
 )
-output_path = "../plots/"
+output_path = "/afs/cern.ch/user/t/tvonschw/tea_llp_das/Outputs/"
 
 histograms = (
   #         name      title logx   logy   norm_type                  rebin  xmin  xmax ymin   ymax xlabel         ylabel
-  Histogram("Muon_pt" , "", False, True , NormalizationType.to_lumi, 1,     0   , 200, 1    , 1e3, "x axis", "y axis"),
-  Histogram("Muon_eta", "", False, False, NormalizationType.to_lumi, 1,     -2.4, 2.4, 0    , 250, "x axis", "y axis"),
+  Histogram("Muon_pt" , "", False, True , NormalizationType.to_lumi, 2,     0   , 200, 1    , 1e3, "#p_{T} [GeV]", "#Events"),
+  Histogram("Muon_eta", "", False, False, NormalizationType.to_lumi, 2,     -2.4, 2.4, 0    , 250, r"\eta", "#Events"),
+  Histogram("Dimuon_minv", "", False, True, NormalizationType.to_lumi, 2, 0, 100, 1, 50, "m_{#mu#mu} [GeV]", "#Events"),
+  Histogram("Dimuon_logLxy", "", False, False, NormalizationType.to_lumi, 2, 0, 3.5, 0, 20, "log_{10}(L_{xy} [cm])", "#Events"),
 )
 
 legends = {
