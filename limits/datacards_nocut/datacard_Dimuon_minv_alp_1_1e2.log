@@ -1,0 +1,2043 @@
+ <<< Combine >>> 
+ <<< v10.2.1 >>>
+>>> Random number generator seed is 123456
+>>> Method used is AsymptoticLimits
+============================================================
+Analyzing bin errors for: prop_binbin1
+Poisson cut-off: 10
+Processes excluded for sums: signal
+============================================================
+Bin        Contents        Error           Notes                         
+0          5.429196        0.884784        total sum                     
+0          4.964470        0.864203        excluding marked processes    
+0          33.000000       5.744563        Unweighted events, alpha=0.164521
+  => Total parameter prop_binbin1_bin0[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+1          14.407879       1.368776        total sum                     
+1          10.380256       1.249636        excluding marked processes    
+1          69.000000       8.306624        Unweighted events, alpha=0.208810
+  => Total parameter prop_binbin1_bin1[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+2          13.363749       1.301483        total sum                     
+2          9.026309        1.165291        excluding marked processes    
+2          60.000000       7.745967        Unweighted events, alpha=0.222729
+  => Total parameter prop_binbin1_bin2[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+3          6.254372        0.955319        total sum                     
+3          5.867101        0.939488        excluding marked processes    
+3          39.000000       6.244998        Unweighted events, alpha=0.160369
+  => Total parameter prop_binbin1_bin3[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+4          6.026480        0.940214        total sum                     
+4          5.716662        0.927365        excluding marked processes    
+4          38.000000       6.164414        Unweighted events, alpha=0.158592
+  => Total parameter prop_binbin1_bin4[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+5          1.581839        0.481992        total sum                     
+5          1.504385        0.475728        excluding marked processes    
+5          10.000000       3.162278        Unweighted events, alpha=0.158184
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin5_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin5_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+6          3.013240        0.664832        total sum                     
+6          2.858331        0.655746        excluding marked processes    
+6          19.000000       4.358899        Unweighted events, alpha=0.158592
+  => Total parameter prop_binbin1_bin6[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+7          0.683678        0.293075        total sum                     
+7          0.451315        0.260567        excluding marked processes    
+7          3.000000        1.732051        Unweighted events, alpha=0.227893
+  => Number of weighted events is below Poisson threshold
+    signal               0.232363        0.134155                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin7_signal[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin7_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+8          0.451315        0.260567        total sum                     
+8          0.451315        0.260567        excluding marked processes    
+8          3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin8_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+9          0.756663        0.320196        total sum                     
+9          0.601754        0.300877        excluding marked processes    
+9          4.000000        2.000000        Unweighted events, alpha=0.189166
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin9_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin9_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+10         0.902631        0.368498        total sum                     
+10         0.902631        0.368498        excluding marked processes    
+10         6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin10_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+11         0.829647        0.345192        total sum                     
+11         0.752192        0.336391        excluding marked processes    
+11         5.000000        2.236068        Unweighted events, alpha=0.165929
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin11_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin11_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+12         0.300877        0.212752        total sum                     
+12         0.300877        0.212752        excluding marked processes    
+12         2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin12_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+13         0.752192        0.336391        total sum                     
+13         0.752192        0.336391        excluding marked processes    
+13         5.000000        2.236068        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin13_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+14         0.980085        0.376550        total sum                     
+14         0.902631        0.368498        excluding marked processes    
+14         6.000000        2.449490        Unweighted events, alpha=0.163348
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin14_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin14_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+15         1.053069        0.398023        total sum                     
+15         1.053069        0.398023        excluding marked processes    
+15         7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin15_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+16         0.752192        0.336391        total sum                     
+16         0.752192        0.336391        excluding marked processes    
+16         5.000000        2.236068        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin16_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+17         0.829647        0.345192        total sum                     
+17         0.752192        0.336391        excluding marked processes    
+17         5.000000        2.236068        Unweighted events, alpha=0.165929
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin17_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin17_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+18         1.280962        0.432496        total sum                     
+18         1.203508        0.425504        excluding marked processes    
+18         8.000000        2.828427        Unweighted events, alpha=0.160120
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin18_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin18_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+19         1.581839        0.481992        total sum                     
+19         1.504385        0.475728        excluding marked processes    
+19         10.000000       3.162278        Unweighted events, alpha=0.158184
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin19_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin19_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+20         0.980085        0.376550        total sum                     
+20         0.902631        0.368498        excluding marked processes    
+20         6.000000        2.449490        Unweighted events, alpha=0.163348
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin20_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin20_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+21         0.451315        0.260567        total sum                     
+21         0.451315        0.260567        excluding marked processes    
+21         3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin21_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+22         0.679208        0.310687        total sum                     
+22         0.601754        0.300877        excluding marked processes    
+22         4.000000        2.000000        Unweighted events, alpha=0.169802
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin22_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin22_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+23         1.659293        0.488176        total sum                     
+23         1.504385        0.475728        excluding marked processes    
+23         10.000000       3.162278        Unweighted events, alpha=0.165929
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin23_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin23_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+24         1.203508        0.425504        total sum                     
+24         1.203508        0.425504        excluding marked processes    
+24         8.000000        2.828427        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin24_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+25         0.752192        0.336391        total sum                     
+25         0.752192        0.336391        excluding marked processes    
+25         5.000000        2.236068        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin25_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+26         1.280962        0.432496        total sum                     
+26         1.203508        0.425504        excluding marked processes    
+26         8.000000        2.828427        Unweighted events, alpha=0.160120
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin26_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin26_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+27         1.809732        0.510830        total sum                     
+27         1.654823        0.498948        excluding marked processes    
+27         11.000000       3.316625        Unweighted events, alpha=0.164521
+  => Total parameter prop_binbin1_bin27[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+28         1.280962        0.432496        total sum                     
+28         1.203508        0.425504        excluding marked processes    
+28         8.000000        2.828427        Unweighted events, alpha=0.160120
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin28_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin28_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+29         1.358416        0.439377        total sum                     
+29         1.203508        0.425504        excluding marked processes    
+29         8.000000        2.828427        Unweighted events, alpha=0.169802
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin29_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin29_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+30         2.033155        0.547916        total sum                     
+30         1.955700        0.542414        excluding marked processes    
+30         13.000000       3.605551        Unweighted events, alpha=0.156397
+  => Total parameter prop_binbin1_bin30[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+31         1.053069        0.398023        total sum                     
+31         1.053069        0.398023        excluding marked processes    
+31         7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin31_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+32         1.654823        0.498948        total sum                     
+32         1.654823        0.498948        excluding marked processes    
+32         11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin32[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+33         1.882716        0.526859        total sum                     
+33         1.805262        0.521134        excluding marked processes    
+33         12.000000       3.464102        Unweighted events, alpha=0.156893
+  => Total parameter prop_binbin1_bin33[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+34         1.581839        0.481992        total sum                     
+34         1.504385        0.475728        excluding marked processes    
+34         10.000000       3.162278        Unweighted events, alpha=0.158184
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin34_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin34_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+35         1.053069        0.398023        total sum                     
+35         1.053069        0.398023        excluding marked processes    
+35         7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin35_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+36         1.358416        0.439377        total sum                     
+36         1.203508        0.425504        excluding marked processes    
+36         8.000000        2.828427        Unweighted events, alpha=0.169802
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin36_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin36_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+37         1.955700        0.542414        total sum                     
+37         1.955700        0.542414        excluding marked processes    
+37         13.000000       3.605551        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin37[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+38         2.183593        0.568193        total sum                     
+38         2.106139        0.562889        excluding marked processes    
+38         14.000000       3.741657        Unweighted events, alpha=0.155971
+  => Total parameter prop_binbin1_bin38[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+39         0.601754        0.300877        total sum                     
+39         0.601754        0.300877        excluding marked processes    
+39         4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin39_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+40         1.654823        0.498948        total sum                     
+40         1.654823        0.498948        excluding marked processes    
+40         11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin40[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+41         1.809732        0.510830        total sum                     
+41         1.654823        0.498948        excluding marked processes    
+41         11.000000       3.316625        Unweighted events, alpha=0.164521
+  => Total parameter prop_binbin1_bin41[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+42         0.601754        0.300877        total sum                     
+42         0.601754        0.300877        excluding marked processes    
+42         4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin42_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+43         2.862801        0.647588        total sum                     
+43         2.707893        0.638256        excluding marked processes    
+43         18.000000       4.242641        Unweighted events, alpha=0.159045
+  => Total parameter prop_binbin1_bin43[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+44         2.033155        0.547916        total sum                     
+44         1.955700        0.542414        excluding marked processes    
+44         13.000000       3.605551        Unweighted events, alpha=0.156397
+  => Total parameter prop_binbin1_bin44[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+45         1.431401        0.457914        total sum                     
+45         1.353946        0.451315        excluding marked processes    
+45         9.000000        3.000000        Unweighted events, alpha=0.159045
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin45_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.353946        0.451315                                      
+                         9.000000        3.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin45_tt_semi[9.00,0.20,49.98] and const [0.1111] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+46         2.407016        0.601754        total sum                     
+46         2.407016        0.601754        excluding marked processes    
+46         16.000000       4.000000        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin46[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+47         2.106139        0.562889        total sum                     
+47         2.106139        0.562889        excluding marked processes    
+47         14.000000       3.741657        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin47[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+48         1.504385        0.475728        total sum                     
+48         1.504385        0.475728        excluding marked processes    
+48         10.000000       3.162278        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin48_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+49         2.106139        0.562889        total sum                     
+49         2.106139        0.562889        excluding marked processes    
+49         14.000000       3.741657        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin49[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+50         2.411486        0.592853        total sum                     
+50         2.256577        0.582646        excluding marked processes    
+50         15.000000       3.872983        Unweighted events, alpha=0.160766
+  => Total parameter prop_binbin1_bin50[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+51         1.353946        0.451315        total sum                     
+51         1.353946        0.451315        excluding marked processes    
+51         9.000000        3.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.353946        0.451315                                      
+                         9.000000        3.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin51_tt_semi[9.00,0.20,49.98] and const [0.1111] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+52         2.785347        0.642939        total sum                     
+52         2.707893        0.638256        excluding marked processes    
+52         18.000000       4.242641        Unweighted events, alpha=0.154741
+  => Total parameter prop_binbin1_bin52[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+53         2.106139        0.562889        total sum                     
+53         2.106139        0.562889        excluding marked processes    
+53         14.000000       3.741657        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin53[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+54         2.188063        0.558758        total sum                     
+54         1.955700        0.542414        excluding marked processes    
+54         13.000000       3.605551        Unweighted events, alpha=0.168313
+  => Total parameter prop_binbin1_bin54[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+55         2.106139        0.562889        total sum                     
+55         2.106139        0.562889        excluding marked processes    
+55         14.000000       3.741657        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin55[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+56         2.338502        0.578655        total sum                     
+56         2.106139        0.562889        excluding marked processes    
+56         14.000000       3.741657        Unweighted events, alpha=0.167036
+  => Total parameter prop_binbin1_bin56[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+57         1.654823        0.498948        total sum                     
+57         1.654823        0.498948        excluding marked processes    
+57         11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin57[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+58         2.561924        0.611642        total sum                     
+58         2.407016        0.601754        excluding marked processes    
+58         16.000000       4.000000        Unweighted events, alpha=0.160120
+  => Total parameter prop_binbin1_bin58[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+59         3.469025        0.706586        total sum                     
+59         3.159208        0.689396        excluding marked processes    
+59         21.000000       4.582576        Unweighted events, alpha=0.165192
+  => Total parameter prop_binbin1_bin59[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+60         2.334032        0.587771        total sum                     
+60         2.256577        0.582646        excluding marked processes    
+60         15.000000       3.872983        Unweighted events, alpha=0.155602
+  => Total parameter prop_binbin1_bin60[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+61         2.707893        0.638256        total sum                     
+61         2.707893        0.638256        excluding marked processes    
+61         18.000000       4.242641        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin61[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+62         2.407016        0.601754        total sum                     
+62         2.407016        0.601754        excluding marked processes    
+62         16.000000       4.000000        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin62[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+63         2.110609        0.553363        total sum                     
+63         1.955700        0.542414        excluding marked processes    
+63         13.000000       3.605551        Unweighted events, alpha=0.162355
+  => Total parameter prop_binbin1_bin63[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+64         1.654823        0.498948        total sum                     
+64         1.654823        0.498948        excluding marked processes    
+64         11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin64[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+65         3.236662        0.693733        total sum                     
+65         3.159208        0.689396        excluding marked processes    
+65         21.000000       4.582576        Unweighted events, alpha=0.154127
+  => Total parameter prop_binbin1_bin65[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+66         1.805262        0.521134        total sum                     
+66         1.805262        0.521134        excluding marked processes    
+66         12.000000       3.464102        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin66[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+67         1.504385        0.475728        total sum                     
+67         1.504385        0.475728        excluding marked processes    
+67         10.000000       3.162278        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin67_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+68         2.557454        0.620274        total sum                     
+68         2.557454        0.620274        excluding marked processes    
+68         17.000000       4.123106        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin68[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+69         2.634908        0.625091        total sum                     
+69         2.557454        0.620274        excluding marked processes    
+69         17.000000       4.123106        Unweighted events, alpha=0.154995
+  => Total parameter prop_binbin1_bin69[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+70         2.411486        0.592853        total sum                     
+70         2.256577        0.582646        excluding marked processes    
+70         15.000000       3.872983        Unweighted events, alpha=0.160766
+  => Total parameter prop_binbin1_bin70[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+71         2.110609        0.553363        total sum                     
+71         1.955700        0.542414        excluding marked processes    
+71         13.000000       3.605551        Unweighted events, alpha=0.162355
+  => Total parameter prop_binbin1_bin71[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+72         2.407016        0.601754        total sum                     
+72         2.407016        0.601754        excluding marked processes    
+72         16.000000       4.000000        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin72[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+73         1.882716        0.526859        total sum                     
+73         1.805262        0.521134        excluding marked processes    
+73         12.000000       3.464102        Unweighted events, alpha=0.156893
+  => Total parameter prop_binbin1_bin73[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+74         3.460085        0.721478        total sum                     
+74         3.460085        0.721478        excluding marked processes    
+74         23.000000       4.795832        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin74[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+75         2.407016        0.601754        total sum                     
+75         2.407016        0.601754        excluding marked processes    
+75         16.000000       4.000000        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin75[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+76         1.504385        0.475728        total sum                     
+76         1.504385        0.475728        excluding marked processes    
+76         10.000000       3.162278        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin76_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+77         2.183593        0.568193        total sum                     
+77         2.106139        0.562889        excluding marked processes    
+77         14.000000       3.741657        Unweighted events, alpha=0.155971
+  => Total parameter prop_binbin1_bin77[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+78         1.882716        0.526859        total sum                     
+78         1.805262        0.521134        excluding marked processes    
+78         12.000000       3.464102        Unweighted events, alpha=0.156893
+  => Total parameter prop_binbin1_bin78[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+79         1.581839        0.481992        total sum                     
+79         1.504385        0.475728        excluding marked processes    
+79         10.000000       3.162278        Unweighted events, alpha=0.158184
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin79_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin79_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+80         1.504385        0.475728        total sum                     
+80         1.504385        0.475728        excluding marked processes    
+80         10.000000       3.162278        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin80_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+81         1.955700        0.542414        total sum                     
+81         1.955700        0.542414        excluding marked processes    
+81         13.000000       3.605551        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin81[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+82         2.256577        0.582646        total sum                     
+82         2.256577        0.582646        excluding marked processes    
+82         15.000000       3.872983        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin82[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+83         2.256577        0.582646        total sum                     
+83         2.256577        0.582646        excluding marked processes    
+83         15.000000       3.872983        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin83[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+84         0.679208        0.310687        total sum                     
+84         0.601754        0.300877        excluding marked processes    
+84         4.000000        2.000000        Unweighted events, alpha=0.169802
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin84_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin84_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+85         1.207978        0.412820        total sum                     
+85         1.053069        0.398023        excluding marked processes    
+85         7.000000        2.645751        Unweighted events, alpha=0.172568
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin85_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin85_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+86         1.659293        0.488176        total sum                     
+86         1.504385        0.475728        excluding marked processes    
+86         10.000000       3.162278        Unweighted events, alpha=0.165929
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin86_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin86_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+87         1.431401        0.457914        total sum                     
+87         1.353946        0.451315        excluding marked processes    
+87         9.000000        3.000000        Unweighted events, alpha=0.159045
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin87_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.353946        0.451315                                      
+                         9.000000        3.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin87_tt_semi[9.00,0.20,49.98] and const [0.1111] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+88         2.561924        0.611642        total sum                     
+88         2.407016        0.601754        excluding marked processes    
+88         16.000000       4.000000        Unweighted events, alpha=0.160120
+  => Total parameter prop_binbin1_bin88[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+89         1.882716        0.526859        total sum                     
+89         1.805262        0.521134        excluding marked processes    
+89         12.000000       3.464102        Unweighted events, alpha=0.156893
+  => Total parameter prop_binbin1_bin89[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+90         1.130524        0.405489        total sum                     
+90         1.053069        0.398023        excluding marked processes    
+90         7.000000        2.645751        Unweighted events, alpha=0.161503
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin90_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin90_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+91         1.581839        0.481992        total sum                     
+91         1.504385        0.475728        excluding marked processes    
+91         10.000000       3.162278        Unweighted events, alpha=0.158184
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin91_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin91_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+92         2.183593        0.568193        total sum                     
+92         2.106139        0.562889        excluding marked processes    
+92         14.000000       3.741657        Unweighted events, alpha=0.155971
+  => Total parameter prop_binbin1_bin92[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+93         1.805262        0.521134        total sum                     
+93         1.805262        0.521134        excluding marked processes    
+93         12.000000       3.464102        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin93[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+94         0.679208        0.310687        total sum                     
+94         0.601754        0.300877        excluding marked processes    
+94         4.000000        2.000000        Unweighted events, alpha=0.169802
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin94_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin94_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+95         0.907101        0.353775        total sum                     
+95         0.752192        0.336391        excluding marked processes    
+95         5.000000        2.236068        Unweighted events, alpha=0.181420
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin95_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin95_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+96         0.902631        0.368498        total sum                     
+96         0.902631        0.368498        excluding marked processes    
+96         6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin96_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+97         2.183593        0.568193        total sum                     
+97         2.106139        0.562889        excluding marked processes    
+97         14.000000       3.741657        Unweighted events, alpha=0.155971
+  => Total parameter prop_binbin1_bin97[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+98         1.654823        0.498948        total sum                     
+98         1.654823        0.498948        excluding marked processes    
+98         11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin98[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+99         1.504385        0.475728        total sum                     
+99         1.504385        0.475728        excluding marked processes    
+99         10.000000       3.162278        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin99_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+100        1.203508        0.425504        total sum                     
+100        1.203508        0.425504        excluding marked processes    
+100        8.000000        2.828427        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin100_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+101        1.654823        0.498948        total sum                     
+101        1.654823        0.498948        excluding marked processes    
+101        11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin101[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+102        1.053069        0.398023        total sum                     
+102        1.053069        0.398023        excluding marked processes    
+102        7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin102_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+103        1.203508        0.425504        total sum                     
+103        1.203508        0.425504        excluding marked processes    
+103        8.000000        2.828427        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin103_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+104        2.033155        0.547916        total sum                     
+104        1.955700        0.542414        excluding marked processes    
+104        13.000000       3.605551        Unweighted events, alpha=0.156397
+  => Total parameter prop_binbin1_bin104[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+105        0.902631        0.368498        total sum                     
+105        0.902631        0.368498        excluding marked processes    
+105        6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin105_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+106        0.752192        0.336391        total sum                     
+106        0.752192        0.336391        excluding marked processes    
+106        5.000000        2.236068        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin106_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+107        1.203508        0.425504        total sum                     
+107        1.203508        0.425504        excluding marked processes    
+107        8.000000        2.828427        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin107_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+108        0.902631        0.368498        total sum                     
+108        0.902631        0.368498        excluding marked processes    
+108        6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin108_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+109        0.601754        0.300877        total sum                     
+109        0.601754        0.300877        excluding marked processes    
+109        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin109_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+110        1.053069        0.398023        total sum                     
+110        1.053069        0.398023        excluding marked processes    
+110        7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin110_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+111        1.654823        0.498948        total sum                     
+111        1.654823        0.498948        excluding marked processes    
+111        11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin111[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+112        0.300877        0.212752        total sum                     
+112        0.300877        0.212752        excluding marked processes    
+112        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin112_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+113        0.980085        0.376550        total sum                     
+113        0.902631        0.368498        excluding marked processes    
+113        6.000000        2.449490        Unweighted events, alpha=0.163348
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin113_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin113_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+114        1.353946        0.451315        total sum                     
+114        1.353946        0.451315        excluding marked processes    
+114        9.000000        3.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.353946        0.451315                                      
+                         9.000000        3.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin114_tt_semi[9.00,0.20,49.98] and const [0.1111] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+115        1.203508        0.425504        total sum                     
+115        1.203508        0.425504        excluding marked processes    
+115        8.000000        2.828427        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.203508        0.425504                                      
+                         8.000000        2.828427        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin115_tt_semi[8.00,0.12,47.91] and const [0.1250] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+116        1.805262        0.521134        total sum                     
+116        1.805262        0.521134        excluding marked processes    
+116        12.000000       3.464102        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin116[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+117        1.504385        0.475728        total sum                     
+117        1.504385        0.475728        excluding marked processes    
+117        10.000000       3.162278        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.504385        0.475728                                      
+                         10.000000       3.162278        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin117_tt_semi[10.00,0.30,52.00] and const [0.1000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+118        0.528770        0.271835        total sum                     
+118        0.451315        0.260567        excluding marked processes    
+118        3.000000        1.732051        Unweighted events, alpha=0.176257
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin118_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin118_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+119        1.053069        0.398023        total sum                     
+119        1.053069        0.398023        excluding marked processes    
+119        7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin119_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+120        0.752192        0.336391        total sum                     
+120        0.752192        0.336391        excluding marked processes    
+120        5.000000        2.236068        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin120_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+121        1.053069        0.398023        total sum                     
+121        1.053069        0.398023        excluding marked processes    
+121        7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin121_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+122        0.601754        0.300877        total sum                     
+122        0.601754        0.300877        excluding marked processes    
+122        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin122_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+123        0.829647        0.345192        total sum                     
+123        0.752192        0.336391        excluding marked processes    
+123        5.000000        2.236068        Unweighted events, alpha=0.165929
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin123_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin123_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+124        1.053069        0.398023        total sum                     
+124        1.053069        0.398023        excluding marked processes    
+124        7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin124_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+125        1.654823        0.498948        total sum                     
+125        1.654823        0.498948        excluding marked processes    
+125        11.000000       3.316625        Unweighted events, alpha=0.150438
+  => Total parameter prop_binbin1_bin125[0.00,-7.00,7.00] to be Gaussian constrained
+------------------------------------------------------------
+126        1.130524        0.405489        total sum                     
+126        1.053069        0.398023        excluding marked processes    
+126        7.000000        2.645751        Unweighted events, alpha=0.161503
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin126_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin126_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+127        0.378331        0.226413        total sum                     
+127        0.300877        0.212752        excluding marked processes    
+127        2.000000        1.414214        Unweighted events, alpha=0.189166
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin127_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin127_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+128        0.533240        0.251517        total sum                     
+128        0.300877        0.212752        excluding marked processes    
+128        2.000000        1.414214        Unweighted events, alpha=0.266620
+  => Number of weighted events is below Poisson threshold
+    signal               0.232363        0.134155                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin128_signal[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin128_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+129        0.451315        0.260567        total sum                     
+129        0.451315        0.260567        excluding marked processes    
+129        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin129_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+130        1.057540        0.384433        total sum                     
+130        0.902631        0.368498        excluding marked processes    
+130        6.000000        2.449490        Unweighted events, alpha=0.176257
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin130_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin130_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+131        0.902631        0.368498        total sum                     
+131        0.902631        0.368498        excluding marked processes    
+131        6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin131_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+132        0.528770        0.271835        total sum                     
+132        0.451315        0.260567        excluding marked processes    
+132        3.000000        1.732051        Unweighted events, alpha=0.176257
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin132_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin132_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+133        0.601754        0.300877        total sum                     
+133        0.601754        0.300877        excluding marked processes    
+133        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin133_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+134        0.756663        0.320196        total sum                     
+134        0.601754        0.300877        excluding marked processes    
+134        4.000000        2.000000        Unweighted events, alpha=0.189166
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin134_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin134_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+135        0.902631        0.368498        total sum                     
+135        0.902631        0.368498        excluding marked processes    
+135        6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin135_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+136        0.980085        0.376550        total sum                     
+136        0.902631        0.368498        excluding marked processes    
+136        6.000000        2.449490        Unweighted events, alpha=0.163348
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin136_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin136_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+137        0.601754        0.300877        total sum                     
+137        0.601754        0.300877        excluding marked processes    
+137        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin137_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+138        0.601754        0.300877        total sum                     
+138        0.601754        0.300877        excluding marked processes    
+138        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin138_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+139        0.378331        0.226413        total sum                     
+139        0.300877        0.212752        excluding marked processes    
+139        2.000000        1.414214        Unweighted events, alpha=0.189166
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin139_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin139_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+140        0.902631        0.368498        total sum                     
+140        0.902631        0.368498        excluding marked processes    
+140        6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin140_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+141        0.451315        0.260567        total sum                     
+141        0.451315        0.260567        excluding marked processes    
+141        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin141_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+142        1.353946        0.451315        total sum                     
+142        1.353946        0.451315        excluding marked processes    
+142        9.000000        3.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.353946        0.451315                                      
+                         9.000000        3.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin142_tt_semi[9.00,0.20,49.98] and const [0.1111] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+143        0.829647        0.345192        total sum                     
+143        0.752192        0.336391        excluding marked processes    
+143        5.000000        2.236068        Unweighted events, alpha=0.165929
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin143_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin143_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+144        0.679208        0.310687        total sum                     
+144        0.601754        0.300877        excluding marked processes    
+144        4.000000        2.000000        Unweighted events, alpha=0.169802
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin144_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin144_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+145        0.150438        0.150438        total sum                     
+145        0.150438        0.150438        excluding marked processes    
+145        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin145_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+146        0.150438        0.150438        total sum                     
+146        0.150438        0.150438        excluding marked processes    
+146        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin146_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+147        0.451315        0.260567        total sum                     
+147        0.451315        0.260567        excluding marked processes    
+147        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin147_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+148        0.902631        0.368498        total sum                     
+148        0.902631        0.368498        excluding marked processes    
+148        6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin148_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+149        0.601754        0.300877        total sum                     
+149        0.601754        0.300877        excluding marked processes    
+149        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin149_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+150        0.606224        0.282654        total sum                     
+150        0.451315        0.260567        excluding marked processes    
+150        3.000000        1.732051        Unweighted events, alpha=0.202075
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin150_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin150_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+151        0.679208        0.310687        total sum                     
+151        0.601754        0.300877        excluding marked processes    
+151        4.000000        2.000000        Unweighted events, alpha=0.169802
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin151_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin151_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+152        0.451315        0.260567        total sum                     
+152        0.451315        0.260567        excluding marked processes    
+152        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin152_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+153        0.601754        0.300877        total sum                     
+153        0.601754        0.300877        excluding marked processes    
+153        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin153_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+154        0.451315        0.260567        total sum                     
+154        0.451315        0.260567        excluding marked processes    
+154        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin154_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+155        0.300877        0.212752        total sum                     
+155        0.300877        0.212752        excluding marked processes    
+155        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin155_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+156        0.300877        0.212752        total sum                     
+156        0.300877        0.212752        excluding marked processes    
+156        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin156_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+157        0.000000        0.000000        total sum                     
+157        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+158        0.528770        0.271835        total sum                     
+158        0.451315        0.260567        excluding marked processes    
+158        3.000000        1.732051        Unweighted events, alpha=0.176257
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin158_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin158_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+159        0.451315        0.260567        total sum                     
+159        0.451315        0.260567        excluding marked processes    
+159        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin159_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+160        0.300877        0.212752        total sum                     
+160        0.300877        0.212752        excluding marked processes    
+160        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin160_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+161        0.300877        0.212752        total sum                     
+161        0.300877        0.212752        excluding marked processes    
+161        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin161_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+162        0.300877        0.212752        total sum                     
+162        0.300877        0.212752        excluding marked processes    
+162        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin162_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+163        1.053069        0.398023        total sum                     
+163        1.053069        0.398023        excluding marked processes    
+163        7.000000        2.645751        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              1.053069        0.398023                                      
+                         7.000000        2.645751        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin163_tt_semi[7.00,0.07,45.79] and const [0.1429] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+164        0.451315        0.260567        total sum                     
+164        0.451315        0.260567        excluding marked processes    
+164        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin164_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+165        0.451315        0.260567        total sum                     
+165        0.451315        0.260567        excluding marked processes    
+165        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin165_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+166        0.451315        0.260567        total sum                     
+166        0.451315        0.260567        excluding marked processes    
+166        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin166_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+167        0.150438        0.150438        total sum                     
+167        0.150438        0.150438        excluding marked processes    
+167        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin167_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+168        0.305347        0.186092        total sum                     
+168        0.150438        0.150438        excluding marked processes    
+168        1.000000        1.000000        Unweighted events, alpha=0.305347
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin168_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin168_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+169        0.150438        0.150438        total sum                     
+169        0.150438        0.150438        excluding marked processes    
+169        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin169_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+170        0.455786        0.239294        total sum                     
+170        0.300877        0.212752        excluding marked processes    
+170        2.000000        1.414214        Unweighted events, alpha=0.227893
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin170_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin170_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+171        0.300877        0.212752        total sum                     
+171        0.300877        0.212752        excluding marked processes    
+171        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin171_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+172        0.300877        0.212752        total sum                     
+172        0.300877        0.212752        excluding marked processes    
+172        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin172_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+173        0.150438        0.150438        total sum                     
+173        0.150438        0.150438        excluding marked processes    
+173        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin173_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+174        0.528770        0.271835        total sum                     
+174        0.451315        0.260567        excluding marked processes    
+174        3.000000        1.732051        Unweighted events, alpha=0.176257
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin174_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin174_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+175        0.451315        0.260567        total sum                     
+175        0.451315        0.260567        excluding marked processes    
+175        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin175_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+176        0.756663        0.320196        total sum                     
+176        0.601754        0.300877        excluding marked processes    
+176        4.000000        2.000000        Unweighted events, alpha=0.189166
+  => Number of weighted events is below Poisson threshold
+    signal               0.154909        0.109537                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin176_signal[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin176_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+177        0.227893        0.169207        total sum                     
+177        0.150438        0.150438        excluding marked processes    
+177        1.000000        1.000000        Unweighted events, alpha=0.227893
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin177_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin177_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+178        0.150438        0.150438        total sum                     
+178        0.150438        0.150438        excluding marked processes    
+178        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin178_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+179        0.150438        0.150438        total sum                     
+179        0.150438        0.150438        excluding marked processes    
+179        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin179_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+180        0.829647        0.345192        total sum                     
+180        0.752192        0.336391        excluding marked processes    
+180        5.000000        2.236068        Unweighted events, alpha=0.165929
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin180_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.752192        0.336391                                      
+                         5.000000        2.236068        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin180_tt_semi[5.00,0.01,41.33] and const [0.2000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+181        0.150438        0.150438        total sum                     
+181        0.150438        0.150438        excluding marked processes    
+181        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin181_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+182        0.300877        0.212752        total sum                     
+182        0.300877        0.212752        excluding marked processes    
+182        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin182_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+183        0.227893        0.169207        total sum                     
+183        0.150438        0.150438        excluding marked processes    
+183        1.000000        1.000000        Unweighted events, alpha=0.227893
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin183_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin183_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+184        0.601754        0.300877        total sum                     
+184        0.601754        0.300877        excluding marked processes    
+184        4.000000        2.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.601754        0.300877                                      
+                         4.000000        2.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin184_tt_semi[4.00,0.00,38.96] and const [0.2500] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+185        0.451315        0.260567        total sum                     
+185        0.451315        0.260567        excluding marked processes    
+185        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin185_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+186        0.902631        0.368498        total sum                     
+186        0.902631        0.368498        excluding marked processes    
+186        6.000000        2.449490        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.902631        0.368498                                      
+                         6.000000        2.449490        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin186_tt_semi[6.00,0.03,43.60] and const [0.1667] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+187        0.451315        0.260567        total sum                     
+187        0.451315        0.260567        excluding marked processes    
+187        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin187_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+188        0.300877        0.212752        total sum                     
+188        0.300877        0.212752        excluding marked processes    
+188        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin188_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+189        0.150438        0.150438        total sum                     
+189        0.150438        0.150438        excluding marked processes    
+189        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin189_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+190        0.300877        0.212752        total sum                     
+190        0.300877        0.212752        excluding marked processes    
+190        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin190_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+191        0.000000        0.000000        total sum                     
+191        0.000000        0.000000        excluding marked processes    
+  => Error is zero, ignore      
+------------------------------------------------------------
+192        0.227893        0.169207        total sum                     
+192        0.150438        0.150438        excluding marked processes    
+192        1.000000        1.000000        Unweighted events, alpha=0.227893
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin192_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin192_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+193        0.300877        0.212752        total sum                     
+193        0.300877        0.212752        excluding marked processes    
+193        2.000000        1.414214        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin193_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+194        0.378331        0.226413        total sum                     
+194        0.300877        0.212752        excluding marked processes    
+194        2.000000        1.414214        Unweighted events, alpha=0.189166
+  => Number of weighted events is below Poisson threshold
+    signal               0.077454        0.077454                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.077454
+      => Product of prop_binbin1_bin194_signal[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+    tt_semi              0.300877        0.212752                                      
+                         2.000000        1.414214        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin194_tt_semi[2.00,0.00,33.79] and const [0.5000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+195        0.150438        0.150438        total sum                     
+195        0.150438        0.150438        excluding marked processes    
+195        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin195_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+196        0.451315        0.260567        total sum                     
+196        0.451315        0.260567        excluding marked processes    
+196        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin196_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+197        0.451315        0.260567        total sum                     
+197        0.451315        0.260567        excluding marked processes    
+197        3.000000        1.732051        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.451315        0.260567                                      
+                         3.000000        1.732051        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin197_tt_semi[3.00,0.00,36.46] and const [0.3333] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+198        0.150438        0.150438        total sum                     
+198        0.150438        0.150438        excluding marked processes    
+198        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin198_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+199        0.150438        0.150438        total sum                     
+199        0.150438        0.150438        excluding marked processes    
+199        1.000000        1.000000        Unweighted events, alpha=0.150438
+  => Number of weighted events is below Poisson threshold
+    signal               0.000000        0.000000                                      
+      => Error is zero, ignore      
+  ----------------------------------------------------------
+    tt_semi              0.150438        0.150438                                      
+                         1.000000        1.000000        Unweighted events, alpha=0.150438
+      => Product of prop_binbin1_bin199_tt_semi[1.00,0.00,30.85] and const [1.0000] to be Poisson constrained
+  ----------------------------------------------------------
+------------------------------------------------------------
+Channel bin1 will use autoMCStats with settings: event-threshold=10, include-signal=0, hist-mode=1
+
+ -- AsymptoticLimits ( CLs ) --
+Observed Limit: r < 1.0650
+Expected  2.5%: r < 0.5415
+Expected 16.0%: r < 0.7425
+Expected 50.0%: r < 1.0664
+Expected 84.0%: r < 1.5637
+Expected 97.5%: r < 2.2262
+
+Done in 1.20 min (cpu), 1.22 min (real)

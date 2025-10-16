@@ -22,7 +22,7 @@ void FillHistograms(const shared_ptr<Event> &event, shared_ptr<HistogramsHandler
   // If there's no good dimuon in the event, we can't to fill the histograms.
   if (!bestDimuon) return;
   double logLxy = TMath::Log10(bestDimuon->GetLxyFromPV());
-  if (logLxy < 0) return;
+  //if (logLxy < 0) return;
 
   // Then, we can simply fill the histograms with the properties of the best dimuon.
   // The histogram name must match the name defined in the config.

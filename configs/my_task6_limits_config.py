@@ -9,10 +9,10 @@ combine_path = "/afs/cern.ch/work/j/jniedzie/public/combine/CMSSW_14_1_0_pre4/sr
 skip_combine = False
 
 # Definition of the input and output files and directories.
-file_name = "after_selections.root"
-datacards_output_path = "../limits/datacards/"
-plots_output_path = "../limits/plots/"
-results_output_path = "../limits/results/"
+file_name = "after_selections_nocut.root"
+datacards_output_path = "../limits/datacards_nocut/"
+plots_output_path = "../limits/plots_nocut/"
+results_output_path = "../limits/results_nocut/"
 
 # If True, poisson error on empty bins (1.84) will be added to data histograms. We can leave it False here.
 add_uncertainties_on_zero = False

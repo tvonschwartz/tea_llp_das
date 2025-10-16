@@ -3,11 +3,11 @@ nEvents = -1
 
 base_path = "/eos/cms/store/group/committee_schools/2025-cmsdas-hamburg/llp/samples/"
 
-#process = "background_ttsemileptonic"
-process = "tta_mAlp-60GeV_ctau-1e2mm"
+process = "background_ttsemileptonic"
+#process = "tta_mAlp-1GeV_ctau-1e2mm"
 
 inputFilePath = f"{base_path}/{process}/output_0.root"
-histogramsOutputFilePath = f"../histograms/{process}/after_selections.root"
+histogramsOutputFilePath = f"../histograms/{process}/after_selections_nocut.root"
 
 defaultHistParams = (
   #  collection      variable          bins    xmin     xmax     dir
